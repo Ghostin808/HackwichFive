@@ -34,7 +34,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zpC-9t-LVc">
-                                <rect key="frame" x="117" y="536" width="141" height="64"/>
+                                <rect key="frame" x="158" y="510" width="141" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -46,6 +46,7 @@
                     </view>
                     <connections>
                         <outlet property="bottomLabelPressed" destination="zpC-9t-LVc" id="84h-fw-Mfy"/>
+                        <outlet property="buttonLabel" destination="SUb-yZ-ggb" id="I1V-5p-Rss"/>
                         <outlet property="topLabelPressed" destination="AnW-AY-nho" id="h05-id-meF"/>
                     </connections>
                 </viewController>
